@@ -13,9 +13,4 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.15" />
 	</ItemGroup>
 
-	<ItemGroup>
-		<ProjectReference Include="..\Lyte.Libraries.Common\Lyte.Libraries.Common.csproj" />
-		<ProjectReference Include="..\Lyte.Libraries.DataTables\Lyte.Libraries.DataTables.csproj" />
-	</ItemGroup>
-
 </Project>

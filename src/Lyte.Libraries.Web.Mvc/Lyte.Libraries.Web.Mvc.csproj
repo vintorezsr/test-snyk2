@@ -9,9 +9,5 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Identity.Web" Version="1.26.0" />
 	</ItemGroup>
-	
-	<ItemGroup>
-		<ProjectReference Include="..\Lyte.Libraries.Web\Lyte.Libraries.Web.csproj" />
-	</ItemGroup>
 
 </Project>
