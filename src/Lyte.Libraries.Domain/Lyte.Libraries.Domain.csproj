@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="../../common.props" />
+
+	<PropertyGroup>
+		<Description>Lyte Domain Library</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="12.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="6.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.15" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Lyte.Libraries.Common\Lyte.Libraries.Common.csproj" />
+		<ProjectReference Include="..\Lyte.Libraries.DataTables\Lyte.Libraries.DataTables.csproj" />
+	</ItemGroup>
+
+</Project>
