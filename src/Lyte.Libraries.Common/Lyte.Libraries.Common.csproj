@@ -1,9 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-	<Import Project="../../common.props" />
-
 	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
+		<TargetFramework>net6.0</TargetFramework>
+		<LangVersion>10.0</LangVersion>
+		<Version>0.0.22</Version>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>Lyte Libraries</Title>
+		<Copyright>2022</Copyright>
+		<Authors>Ferbianto</Authors>
+		<RepositoryType>git</RepositoryType>
 		<Description>Lyte Common Library</Description>
 	</PropertyGroup>
 

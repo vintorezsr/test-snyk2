@@ -1,8 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-	<Import Project="../../common.props" />
-
 	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<LangVersion>10.0</LangVersion>
+		<Version>0.0.22</Version>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>Lyte Libraries</Title>
+		<Copyright>2022</Copyright>
+		<Authors>Ferbianto</Authors>
+		<RepositoryType>git</RepositoryType>
 		<Description>Lyte Domain Library</Description>
 	</PropertyGroup>
 
@@ -11,6 +18,11 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.15" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="6.0.15" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.15" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Lyte.Libraries.Common\Lyte.Libraries.Common.csproj" />
+	  <ProjectReference Include="..\Lyte.Libraries.DataTables\Lyte.Libraries.DataTables.csproj" />
 	</ItemGroup>
 
 </Project>
