@@ -9,6 +9,11 @@
 *.user
 *.userosscache
 *.sln.docstates
+<<<<<<< HEAD
+=======
+*.bak
+*.received.*
+>>>>>>> d0731aadbd494c7a423e5a2422788618e680e987
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -50,12 +55,15 @@ Generated\ Files/
 TestResult.xml
 nunit-*.xml
 
+<<<<<<< HEAD
 # JetBrains IDE
 .idea/
 
 # Visual Studio IDE
 /.vs
 
+=======
+>>>>>>> d0731aadbd494c7a423e5a2422788618e680e987
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
@@ -366,4 +374,12 @@ MigrationBackup/
 .ionide/
 
 # Fody - auto-generated XML schema
+<<<<<<< HEAD
 FodyWeavers.xsd
+=======
+FodyWeavers.xsd
+.vscode/
+
+tilt_modules/
+.helm/
+>>>>>>> d0731aadbd494c7a423e5a2422788618e680e987
